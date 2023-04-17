@@ -38,6 +38,7 @@ while True:
     b = S / a
     delta = a - b
     print(f'这是第{counter}轮，S={S}, a={a}, b={b}, delta={delta}, 是否结束：{delta < infinitesimal}')
+    
     counter = counter + 1
 
     if delta < infinitesimal:
