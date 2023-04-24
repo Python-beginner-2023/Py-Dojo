@@ -2,8 +2,11 @@ import turtle as t
 
 
 def cube(t, x, y, w, h, hand):
+    t.up()
     t.goto(x, y)
     t.setheading(0)
+
+    t.down()
 
     if hand == 'right':
         t.forward(w)
@@ -26,7 +29,12 @@ def cube(t, x, y, w, h, hand):
     else:
         print(f'手性错误: {hand}')
 
+    t.up()
+
 
 t.setup(900, 600)
-cube(t, 10, 10, 300, 200, 'left')
+cube(t, 10, 10, 300, 200, 'right')
+cube(t, -300-10, 10, 300, 200, 'right')
+cube(t, 10, -200-10, 300, 200, 'right')
+cube(t, -300-10, -200-10, 300, 200, 'right')
 t.done()
