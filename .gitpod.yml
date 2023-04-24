@@ -1,3 +1,4 @@
+
 image:
   file: .gitpod.Dockerfile
 ports:
@@ -5,3 +6,8 @@ ports:
     onOpen: ignore
   - port: 6080
     onOpen: open-browser
+vscode:
+  extensions:
+    - ms-python.isort
+    - ms-python.python
+    - ms-python.black-formatter
