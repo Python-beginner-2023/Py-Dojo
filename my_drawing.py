@@ -1,5 +1,6 @@
 import turtle as t
 
+
 def cube(t, x, y, w, h, hand):
     t.goto(x, y)
     t.setheading(0)
@@ -25,6 +26,7 @@ def cube(t, x, y, w, h, hand):
     else:
         print(f'手性错误: {hand}')
 
-t.setup(900,600)
+
+t.setup(900, 600)
 cube(t, 10, 10, 300, 200, 'left')
 t.done()
