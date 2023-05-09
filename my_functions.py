@@ -42,10 +42,11 @@ a = 100
 def foo(x):
     a = x
     print(f'a ix {a}')
+    return a
 
 
 foo(3)
-print(f'now a is :{a}')
+print(f'now a is :{foo(3)}')
 
 
 def foo_2(x):
