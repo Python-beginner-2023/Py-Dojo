@@ -9,3 +9,5 @@
 - 用一种很笨的方法求解开根号的问题，示例程序[my_sqrt.py](./my_sqrt.py)
 
 - 用一种很暴力的方法求解圆周率，示例程序[my_pi.py](./my_pi.py)
+
+- 用Turtle绘制图形，示例程序 (1)绘制多边形：[my_hexgen.py](./my_hexgen.py), （2）绘制复杂一些的图形：[my_drawing.py](./my_drawing.py)
